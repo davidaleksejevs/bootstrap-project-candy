@@ -120,9 +120,17 @@
           </div>
         </div>
       </div>
-    <section/>
+    </section>
 
     <!-- Optional JavaScript -->
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
