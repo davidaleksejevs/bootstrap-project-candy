@@ -3,8 +3,12 @@ body {
   background-color: #f5d9df;
 }
 
+.img-sizing {
+  margin-bottom: 70px;
+}
+
 .content {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 #mainNavbar .nav-link:hover {
